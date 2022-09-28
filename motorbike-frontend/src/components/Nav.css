@@ -1,0 +1,11 @@
+.app-logo{
+    display: flex;
+    background-color: rgba(185, 182, 182, 0.628);
+}
+
+h1{
+    font-size: 25px;
+    color: rgb(79, 75, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 1;
+}
