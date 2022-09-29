@@ -1,9 +1,14 @@
 import React from 'react'
+import { Nav } from '../navigation/Nav'
 import './Registration.css'
 
 export const Login = () => {
     return (
-        <div>
+        <>
+        <header>
+            <Nav />
+        </header>
+        <div className='main-section'>
             <h1 className='login'>Login</h1>
             <form>
                 <div className='form-input'>
@@ -19,5 +24,6 @@ export const Login = () => {
                 </div>
             </form>
         </div>
+        </>
     )
 }

@@ -1,5 +1,6 @@
 .app-logo{
     display: flex;
+    flex-direction: column;
     background-color: rgba(185, 182, 182, 0.628);
     padding: 15px;
 }
@@ -14,6 +15,7 @@ h1{
 .nav-links{
     list-style-type: none;
     display: flex;
+    flex-direction: column;
     color: rgb(79, 75, 75);
     gap: 10px;
     cursor: pointer;

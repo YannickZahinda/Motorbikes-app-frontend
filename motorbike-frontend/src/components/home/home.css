@@ -1,0 +1,18 @@
+.main{
+    display: grid;
+    /* grid-template-columns: 1fr 3fr 1fr; */
+    grid-template-columns: 20% 60% 25%;
+    height: 100vh;
+}
+
+.nav{
+    height: 100vh;
+}
+
+aside{
+    background-color: rgba(128, 128, 206, 0.841);
+}
+
+main{
+    padding: 30px;
+}

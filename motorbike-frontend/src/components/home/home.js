@@ -1,8 +1,21 @@
 import React from 'react'
+import { Nav } from '../navigation/Nav'
 import './home.css'
 
 export const Home = () => (
     <div className='main'>
-        <h1>This is the main page</h1>
+        <header className='nav'>
+            <Nav/>
+        </header>
+        <main>
+            <p>Here the main page</p>
+        </main>
+        <aside>
+            <ul>
+                <li>My aside list</li>
+                <li>My aside list</li>
+                <li>My aside list</li>
+            </ul>
+        </aside>
     </div>
 )
