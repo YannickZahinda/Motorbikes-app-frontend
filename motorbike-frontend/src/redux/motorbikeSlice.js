@@ -10,14 +10,6 @@ const initialState = {
 const getMotorbikes = async() => {
   const response = await axios.get('http://localhost:3000/motorbikes');
     let result = await response.data;
-    // const formatedData = result.map((motorbike) => ({
-    //   id: motorbike.id,
-    //   name: motorbike.name,
-    //   description: motorbike.description,
-    //   price: motorbike.price
-
-    // }))
-    // return formatedData;
     return result;
 }
 
@@ -40,9 +32,7 @@ export const motorbikeSlice = createSlice(
         state.motorbikes.push(action.payload);
       })
     }
-    // extraReducers: { [motorbikesAsync.pending]: (state) =>  {
-    //   state.loading = true
-    // },
+    // extraReducers: { [motorbikesAsync.fulfilled]: (state, action) => action.payload}
     // [motorbikesAsync.fulfilled]: (state, action) => {
     //   state.motorbikes = action.payload
     // },

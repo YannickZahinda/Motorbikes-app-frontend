@@ -22,19 +22,12 @@ export const Home = () => {
           {AllMotorbikes.map((motorbike, i) => (
             <div key={motorbike[i].id} className="cards">
               <div className="card">
-                <h3><img src ={motorbike[i].image} /></h3>
+                <h3><img src ={motorbike[i].image} className='img-card' /></h3>
                 <p>{motorbike[i].name}</p>
               </div>
             </div>
           ))}
         </main>
-        <aside>
-          <ul>
-            <li>My aside list</li>
-            <li>My aside list</li>
-            <li>My aside list</li>
-          </ul>
-        </aside>
     </div>
   );
 };
