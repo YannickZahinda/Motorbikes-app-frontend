@@ -172,8 +172,6 @@ Your app is ready to be deployed!
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yannickmulikuza/)
 
-<<<<<<< HEAD
-=======
 
 👤 **EVANS SITIBISIKO**
 
@@ -182,7 +180,6 @@ Your app is ready to be deployed!
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/evans-sitibekiso/
 )
 
->>>>>>> 210606ebe67953f9e171f16b660da4932f603482
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
