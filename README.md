@@ -69,6 +69,71 @@ git clone https://github.com/rotimiazeez/my-leaderboard.git
 
 ```
 
+## Built With
+
+- HTML
+- JavaScript
+- React js
+- Frameworks
+- Technologies used
+
+
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Node and NPM
+- Web browser (Google chrome)
+- Code Editor (VSCode)
+
+### Development (Running locally)
+
+- Clone the project
+
+```bash
+git clone https://github.com/basitkorede/html-template.git
+
+```
+
+- Install Dependencies
+
+```bash
+npm install
+```
+
+To run StyleLint by itself, you may run the lint task:
+
+```bash
+npx stylelint "**/*.{css,scss}"
+```
+
+Or to automatically fix issues found (where possible):
+
+```bash
+npx stylelint "**/*.{css,scss}" --fix
+```
+
+You can also check against Webhint:
+
+```bash
+npx hint --telemetry=off .
+```
+- Clone the project
+
+```bash
+git clone https://github.com/rotimiazeez/my-leaderboard.git
+
+```
+
 >> Languages: JavaScript, Ruby
 >> Framework: React, Rails
 
@@ -107,6 +172,17 @@ Your app is ready to be deployed!
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yannickmulikuza/)
 
+<<<<<<< HEAD
+=======
+
+👤 **EVANS SITIBISIKO**
+
+- GitHub: [@githubhandle]((https://github.com/evans22j)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/evans-sitibekiso/
+)
+
+>>>>>>> 210606ebe67953f9e171f16b660da4932f603482
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
