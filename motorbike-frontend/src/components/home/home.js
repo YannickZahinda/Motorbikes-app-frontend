@@ -14,20 +14,28 @@ export const Home = () => {
   console.log(AllMotorbikes);
   return (
     <div className="main">
-        <header className="nav">
-          <Nav />
-        </header>
-        <main>
-          <h2>LATEST MODELS</h2>
-          {AllMotorbikes.map((motorbike, i) => (
-            <div key={motorbike[i].id} className="cards">
-              <div className="card">
-                <h3><img src ={motorbike[i].image} className='img-card' /></h3>
-                <p>{motorbike[i].name}</p>
+      <header className="nav">
+        <Nav />
+      </header>
+      <main>
+        <h2>LATEST MODELS</h2>
+        {AllMotorbikes.map((motorbike, i) => (
+          <div key={motorbike[i].id} className="cards">
+            <div className="card">
+              <div>
+                <h3>
+                  <img src={motorbike[i].image} className="img-card" />
+                </h3>
+                <p>
+                    <strong>{motorbike[i].name}</strong> <br/>
+                    <span><strong>Price: {motorbike[i].price}</strong></span>
+                </p>
+
               </div>
             </div>
-          ))}
-        </main>
+          </div>
+        ))}
+      </main>
     </div>
   );
 };
