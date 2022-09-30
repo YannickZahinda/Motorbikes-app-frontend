@@ -4,15 +4,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Login } from './components/User_registration/Registration';
 // import { Nav } from './components/navigation/Nav';
 import { Home } from './components/home/home';
-import { Sign_up } from './components/User_registration/Sign_up';
+import { SignUp } from './components/User_registration/SignUp';
 
 function App() {
   return (
     <Router>
         <Routes>
           <Route path='/Registration' element={<Login />}/>
-          <Route path='/Sign_up' element={<Sign_up />} />
-          <Route path='/Home' element={<Home />} />
+          <Route path='/Sign_up' element={<SignUp />} />
+          <Route path='/' element={<Home />} />
         </Routes>
     </Router>
   );

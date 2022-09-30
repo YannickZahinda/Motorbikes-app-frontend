@@ -2,7 +2,7 @@ import React from 'react'
 import { Nav } from '../navigation/Nav'
 import './Registration.css'
 
-export const Sign_up = () => {
+export const SignUp = () => {
     return (
         <>
         <header>
