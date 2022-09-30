@@ -11,10 +11,19 @@ export const Home = () => (
             <p>Here the main page</p>
         </main>
         <aside>
-            <ul>
-                <li className='side-list'>My aside list</li>
-                <li className='side-list'>My aside list</li>
-                <li className='side-list'>My aside list</li>
+            <ul className='side-list-ul'>
+                <div className='side-list-div'>
+                <li className='side-list'>prices </li>
+                <li className='side-list'>$20</li>
+                </div>
+                <div className='side-list-div'>
+                <li className='side-list'>prices </li>
+                <li className='side-list'>$20</li>
+                </div>
+                <div className='side-list-div'>
+                <li className='side-list'>prices </li>
+                <li className='side-list'>$20</li>
+                </div>
             </ul>
         </aside>
     </div>

@@ -1,7 +1,7 @@
 .main{
     display: grid;
     /* grid-template-columns: 1fr 3fr 1fr; */
-    grid-template-columns: 20% 60% 25%;
+    grid-template-columns: 20% 60% 20%;
     height: 100vh;
 }
 
@@ -17,8 +17,9 @@ main{
     font-size: 14px;
 }
 
-ul .side-list{
-    margin-top: 30%;
+.side-list-ul{
+    margin-top: 32%;
+    padding: 0;
 }
 
 li {
@@ -29,3 +30,9 @@ li {
     font-family: cursive;
     font-weight: 400;
 }
+
+.side-list-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 3px;
+} 

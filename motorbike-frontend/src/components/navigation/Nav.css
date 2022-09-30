@@ -43,4 +43,10 @@
 
 .nav-links-li:hover{
  background-color: lawngreen;
+
 }
+
+.nav-link:hover{ 
+ color: #fff;
+}
+
