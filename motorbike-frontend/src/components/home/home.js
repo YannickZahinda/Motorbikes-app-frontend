@@ -28,7 +28,8 @@ export const Home = () => {
                 </h3>
                 <p>
                     <strong>{motorbike[i].name}</strong> <br/>
-                    <span><strong>Price: {motorbike[i].price}</strong></span>
+                    <span><strong>Price: {motorbike[i].price}</strong></span><br/>
+                    <button className="add-btn">See details</button>
                 </p>
 
               </div>
