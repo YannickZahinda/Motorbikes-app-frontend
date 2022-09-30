@@ -1,10 +1,14 @@
-# Getting Started with Create React App and Redux
+# Motorbike Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This is a simple project allowing users to keep track of motorbike, reserve for it and see the price.
+It was build in two applications, react for frontend and rails for the backend api
 
-## Available Scripts
+## Build with
 
-In the project directory, you can run:
+>> Languages: JavaScript, Ruby
+>> Framework: React, Rails
+
+#
 
 ### `npm start`
 
