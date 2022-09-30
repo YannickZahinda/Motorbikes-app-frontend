@@ -12,9 +12,9 @@ export const Home = () => (
         </main>
         <aside>
             <ul>
-                <li>My aside list</li>
-                <li>My aside list</li>
-                <li>My aside list</li>
+                <li className='side-list'>My aside list</li>
+                <li className='side-list'>My aside list</li>
+                <li className='side-list'>My aside list</li>
             </ul>
         </aside>
     </div>
