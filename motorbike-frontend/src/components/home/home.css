@@ -16,3 +16,9 @@ aside{
 main{
     padding: 30px;
 }
+.card{
+    background-color: rgba(185, 182, 182, 0.628);
+    border-radius: 50%;
+    width: max-content;
+    padding: 40px;
+}
