@@ -37,20 +37,14 @@ export const Home = () => {
         ))}
       </main>
       <aside>
-            <ul className='side-list-ul'>
+            {AllMotorbikes.map((motorbike, i) => <ul className='side-list-ul'>
                 <div className='side-list-div'>
-                <li className='side-list'>prices </li>
-                <li className='side-list'>$20</li>
+                <li className='side-list'>Promotion prices </li>
+                <li className='side-list'>{motorbike[i].price} $</li>
                 </div>
                 <div className='side-list-div'>
-                <li className='side-list'>prices </li>
-                <li className='side-list'>$20</li>
                 </div>
-                <div className='side-list-div'>
-                <li className='side-list'>prices </li>
-                <li className='side-list'>$20</li>
-                </div>
-            </ul>
+            </ul>)}
         </aside>
     </div>
   );
