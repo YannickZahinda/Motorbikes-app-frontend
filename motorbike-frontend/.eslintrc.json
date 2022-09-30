@@ -22,6 +22,17 @@
   },
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "src/setupTests.js",
+    "src/reportWebVitals.js",
+    "src/redux/motorbikeSlice.js",
+    "src/index.js",
+    "src/components/navigation/Nav.js",
+    "src/components/home/home.js",
+    "src/components/User_registration/SignUp.js",
+    "src/App.test.js",
+    "src/App.js",
+    "src/app/store.js",
+    "src/components/User_registration/Registration.js"
   ]
 }
