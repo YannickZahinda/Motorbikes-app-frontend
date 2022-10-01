@@ -1,0 +1,45 @@
+.main{
+    display: grid;
+    /* grid-template-columns: 1fr 3fr 1fr; */
+    grid-template-columns: 20% 60% 25%;
+    height: 100vh;
+}
+
+.nav{
+    height: 100vh;
+}
+
+aside{
+    background-color: rgba(128, 128, 206, 0.841);
+}
+
+main{
+    padding: 30px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    /* grid-template-rows: max-content; */
+    gap: 10px;
+    /* background-color: rgb(65, 90, 90); */
+
+}
+
+.img-card{
+    width: 200px;
+    height: 200px;
+}
+
+.img-card:hover{
+    cursor: pointer;
+    box-shadow: 4px 8px 5px rgba(0, 0, 0, 0.53);
+    transition: 0.3s ease;
+}
+
+.card{
+    /* background-color: rgba(185, 182, 182, 0.628); */
+    border-radius: 10px;
+    padding: 40px;
+    width: 100%;
+}

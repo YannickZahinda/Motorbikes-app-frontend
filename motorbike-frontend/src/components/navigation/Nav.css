@@ -1,0 +1,22 @@
+.app-logo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(185, 182, 182, 0.628);
+    padding: 15px;
+}
+
+h1{
+    font-size: 25px;
+    color: rgb(79, 75, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 1;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: rgb(79, 75, 75);
+    gap: 10px;
+    cursor: pointer;
+}
