@@ -1,22 +1,49 @@
-.app-logo{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(185, 182, 182, 0.628);
-    padding: 15px;
+.nav-wrapper {
+  border-right: 2px solid #dcdcdc;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    font-size: 25px;
-    color: rgb(79, 75, 75);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex: 1;
+.app-logo {
+  display: flex;
+  flex-direction: column;
 }
 
-.nav-links{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    color: rgb(79, 75, 75);
-    gap: 10px;
-    cursor: pointer;
+.nav-header {
+  font-size: 28px;
+  color: #ff8c00;
+  flex: 1;
+  font-style: oblique;
+  font-family: fantasy;
+  padding: 34px 24px 0;
+}
+
+.nav-links-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  color: rgb(79, 75, 75);
+  gap: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav-links-li {
+  margin: 24px 0;
+  padding: 14px  0 14px 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.nav-links-li:hover {
+  background-color: lawngreen;
+}
+
+.nav-link:hover {
+  color: #fff;
 }
